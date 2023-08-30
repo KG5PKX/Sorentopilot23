@@ -1738,12 +1738,14 @@ FW_VERSIONS = {
   },
   CAR.KIA_SORENTO: {
     (Ecu.fwdCamera, 0x7c4, None): [
+      b'\xf1\x00MQ4 MFC  AT USA LHD 1.00 1.00 99210-R5100 221019'
       b'\xf1\x00UMP LKAS AT USA LHD 1.01 1.01 95740-C6550 d01'
     ],
     (Ecu.abs, 0x7d1, None): [
       b'\xf1\x00UM ESC \x0c 12 \x18\x05\x06 58910-C6330'
     ],
     (Ecu.fwdRadar, 0x7D0, None): [
+      b'\xf1\x00MQ4_ SCC FHCUP      1.00 1.08 99110-P2000         '
       b'\xf1\x00UM__ SCC F-CUP      1.00 1.00 96400-C6500         '
     ],
     (Ecu.transmission, 0x7e1, None): [
